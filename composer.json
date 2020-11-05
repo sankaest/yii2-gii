@@ -1,0 +1,28 @@
+{
+    "name": "sankaest/yii2-gii",
+    "description": "The Gii extension for the Yii framework",
+    "keywords": [
+        "yii2",
+        "gii",
+        "code generator"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aleksander Andre",
+            "email": "aleksander@axendo.ee"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "sankaest\\gii\\": "src"
+        }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    }
+}
